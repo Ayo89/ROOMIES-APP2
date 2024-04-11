@@ -1,0 +1,48 @@
+.login-container {
+  background-image: url('../../assets/roomies_tipos.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login {
+  border-radius: 20px;
+  width: 390px;
+  height: 600px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup {
+  color: var(--secondary-color);
+}
+
+.forgot-password {
+  color: #353535;
+}
+
+@media (max-width: 767px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-login {
+    opacity: 1;
+  }
+
+  .header {
+    z-index: 1;
+    width: 180px;
+    position: fixed;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

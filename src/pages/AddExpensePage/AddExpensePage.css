@@ -1,0 +1,24 @@
+.addExpense-wrapper {
+    width: 360px;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--white-color);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.expense-title {
+    display: flex;
+    width: 70%;
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 74%;
+}

@@ -1,0 +1,16 @@
+
+.wrapper {
+  height: 60vh;
+}
+
+.tasks-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tasks-list {
+  width: 90%;
+  height: 90%;
+  margin-top: 40px;
+}

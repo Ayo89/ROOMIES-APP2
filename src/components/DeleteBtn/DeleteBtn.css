@@ -1,0 +1,6 @@
+.delete-btn {
+  width: auto;
+  display: flex;
+  margin-left: 12px;
+  cursor: pointer;
+}
