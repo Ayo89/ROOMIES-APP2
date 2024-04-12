@@ -52,10 +52,8 @@ function CreateCommunity() {
       return alert('The address cannot empty')
     } else if (selectedCity.length <= 0) {
       return alert('The city cannot empty')
-    } else if (image.length <= 0) {
-      return alert('The image cannot empty')
     } else {
-      await createCommunity(name, selectedCity, address, rooms, image)
+      await createCommunity(name, selectedCity, address, rooms)
       if (!localStorage.getItem('token')) alert('no tienes token')
       else navigate('/dashboard')
     }
